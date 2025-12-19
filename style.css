@@ -1,0 +1,120 @@
+body
+{
+ background-color:#ffffff;
+}
+
+h1,h2,h3
+{
+ font-family: Arial, Tahoma;
+ font-size: 28px;
+ text-align: center;
+ color: #;
+}
+
+p
+{
+font-size: 20px;
+text-align: center;
+align-content:center;
+font-family: Arial, Tahoma;
+}
+
+section
+{
+ background-color:#ffffff;
+ font-family: Tahoma, Arial;
+ padding:8px
+  
+}
+
+footer
+{
+ background-color:#d60000;
+ font-family: Courier New, Tahoma;
+ padding:8px;
+ color: #ffffff;
+ font-size: 20px;
+ text-align: center;
+}
+
+header 
+{  
+ background-color: #000;
+ color: #fff;
+ padding: 20px;
+ text-align: center;}
+
+img
+{
+max-width: 100%;	
+text-align:center;
+align-content:center;
+}
+
+video
+{
+max-width: 100%;	
+}
+
+nav
+{
+background-color:#d60000;
+color:#ffffff;
+font-family: Georgia;
+font-weight:bold;
+text-align: center;
+padding: 3px 0;
+}
+
+nav ul
+{
+height:auto;
+margin:0px;
+padding:10px;	
+}
+
+nav li
+{
+display:inline;
+padding:0px;
+margin:0px;
+max-width:50%;	
+}
+
+nav a
+{
+text-decoration:none;
+color:#ffffff;
+padding:8px 5px;
+display:inline;	
+}
+
+nav a:hover
+{
+background-color:#b00000;
+color:#ffffff;	
+}
+
+@media all and (min-width:960px)
+{
+body
+{
+margin:auto;
+width:960px
+}	
+}
+
+@media all and (max-width:640px)
+{
+nav
+{
+height:100%;
+}
+nav li
+{
+display:block;
+padding:10px;
+margin:0px;	
+}
+}
+
